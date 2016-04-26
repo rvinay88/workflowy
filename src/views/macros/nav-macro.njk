@@ -1,0 +1,7 @@
+{% macro active(item) %}
+  <nav>
+    <a href="home.html" class="{%if item=="home" %} active {%endif%}">Home</a>
+    <a href="about.html" class="{%if item=="about" %} active {%endif%}">about</a>
+    <a href="contact.html" class="{%if item=="contact" %} active {%endif%}">contact</a>    
+  </nav>
+{% endmacro %}
