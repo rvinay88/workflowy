@@ -1,10 +1,12 @@
+{# ------------- Layout ------------- #}
 {% extends "base.njk" %}
-
+{# ------------- Navigation ------------- #}
 {% block nav %}
   {% import 'nav-macro.njk' as nav %}
   {{ nav.active("contact") }}
 {% endblock %}
-
+{# ------------- Layout ------------- #}
+{# ------------- Content ------------- #}
 {% block content %}
   <h2>Welcome to the HOME Page</h2>
   <div class="gallery">
@@ -15,4 +17,5 @@
     </div>
   {% endfor %}
   </div>
+{# ------------- Content ------------- #}
 {% endblock %}
