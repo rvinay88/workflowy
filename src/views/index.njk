@@ -7,4 +7,12 @@
 
 {% block content %}
   <h2>Welcome to the HOME Page</h2>
+  <div class="gallery">
+  <!-- Loops through "images" array -->
+  {% for image in homepage.images %}
+    <div class="gallery__item">
+      <img src="{{image.src}}" alt="{{image.alt}}">
+    </div>
+  {% endfor %}
+  </div>
 {% endblock %}
