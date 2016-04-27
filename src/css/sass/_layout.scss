@@ -1,0 +1,26 @@
+img {
+   max-width: 100%;
+   height: auto;
+}
+//------------------ Vertically Align ------------------
+
+.va {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.va-bottom {
+   align-self: flex-end;
+}
+
+body {
+   background: $white-light;
+}
+
+.container {
+   max-width: 1120px;
+   margin: 0 auto;
+}
+
+.row { @include clearfix; }

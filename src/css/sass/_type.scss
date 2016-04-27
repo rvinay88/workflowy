@@ -1,0 +1,14 @@
+$serif: 'PT Serif', serif;
+$sans: 'PT Sans', sans-serif;
+$special: 'Playfair Display', serif;
+
+$ms-base: 1em;
+$ms-ratio: 1.2;
+
+// Utility classes
+
+.sans { font-family: $sans; }
+.serif { font-family: $serif; }
+.special { font-family: $special; }
+
+.ttu { text-transform: uppercase; }

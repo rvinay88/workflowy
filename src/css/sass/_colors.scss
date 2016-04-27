@@ -1,0 +1,37 @@
+// Palette URL: http://paletton.com/#uid=73W1N0krXJ-gYQEmEMFDXGLEKrd */
+
+$blue:       #1778cb;
+$blue-light:  #B2D8F2;
+$blue-medium: #6BA9DC;
+
+$pink:       #EB0B62;
+$orange:     #FF990C;
+$yellow:     #FFF30C;
+$green:      #87F10C;
+$violet:     #7818CF;
+$red:        #FF2B20;
+
+$white:       #FFF;
+$white-light: #EDF5FD;
+
+$black:       #020B12;
+
+$gray:        #444959;
+$gray-light:  #D3D4D7;
+$gray-medium: #7E8290;
+
+.bg-blue        { background-color: $blue; }
+.bg-pink        { background-color: $pink; }
+.bg-orange      { background-color: $orange; }
+.bg-yello       { background-color: $yellow; }
+.bg-gree        { background-color: $green; }
+.bg-violet      { background-color: $violet; }
+.bg-blue-light  { background-color: $blue-light; }
+.bg-blue-medium { background-color: $blue-medium; }
+.bg-white       { background-color: $white; }
+.bg-white-light { background-color: $white-light; }
+.bg-black       { background-color: $black; }
+.bg-gray        { background-color: $gray; }
+.bg-gray-light  { background-color: $gray-light; }
+.bg-gray-medium { background: $gray-medium; }
+.bg-red         { background: $red; }
