@@ -1,13 +1,8 @@
-body {
-  background: #FFF;
-  font-size: 1em;
-}
+@include "settings";
+@include "functions";
 
-.flex {
-  display: flex;
-  justify-content: center;
-}
-
-.active {
-  font-size: 4em;
-}
+@include "colors";
+@include "type";
+@include "typography";
+@include "spacing";
+@include "layout";
